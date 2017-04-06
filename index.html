@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+    <title>Flashcard Creator</title>
+</head>
+
+<body>
+    <h1>Flashcard Creator</h1>
+    <h2>State Capitals</h2>
+    <h4>Instructions: Use the arrow keys to flip though the cards, and click the cards to flip and see the answer.</h4>
+    <div id="cardButton">
+        <p id="cardText"></p>
+        <div id="positionIndex">
+            Card #: 0/0
+        </div>
+    </div>
+    <h3>Insert your cards here</h3>
+    <div id="newCards">
+        Front:<input id="newFront" name="front" type="text"> Back:<input id="newBack" name="back" type="text"> <input onclick="userEnter();" type="button" value="Add">
+    </div>
+    <script src="mousetrap.min.js">
+    </script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

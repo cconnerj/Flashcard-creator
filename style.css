@@ -1,0 +1,97 @@
+html {
+    background: linear-gradient(black, white, grey);
+    height: 100%;
+}
+
+body {
+    border: black 15px solid;
+    border-radius: 30px;
+    background: linear-gradient(-90deg, red, yellow);
+}
+
+#positionIndex {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 70px;
+    font-family: 'kumar one';
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'kumar one';
+}
+
+p {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+    font-family: 'kumar one';
+}
+
+h4 {
+    text-align: center;
+    font-family: 'kumar one';
+    font-size: 25px;
+}
+
+#newCards {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'kumar one';
+}
+
+#cardButton {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #eee;
+    border: #999 15px solid;
+    margin: 50px 300px -50px 300px;
+    border-radius: 30px;
+    font-family: 'kumar one';
+}
+
+#cardText {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    overflow: auto;
+}
+
+.positionIndex {
+    display: inline-block;
+}
+
+#newFront, #newBack {
+    border: #999 5px solid;
+    border-radius: 30px;
+}
+
+input[type="text"] {
+    color: red;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px) {
+    #cardButton {
+        width: 374px;
+        margin: auto;
+    }
+}
